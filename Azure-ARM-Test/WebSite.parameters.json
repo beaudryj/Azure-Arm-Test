@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "Testmusicapp"
+        },
+        "hostingPlanName": {
+          "value": "ServicePlan-Test"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "South Central US"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "TestApp"
+        },
+      "skuCode": {
+        "value": "S1"
+      },
+        "subscriptionId": {
+            "value": "5ce73173-c950-422e-b276-1ce2343b5a2c"
+        }
+    }
+}
